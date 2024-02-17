@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
         <HomePage></HomePage>
       </div>

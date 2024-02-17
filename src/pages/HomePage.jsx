@@ -1,20 +1,15 @@
 import React from "react";
 import styles from "../styles/pages/HomePage.module.css";
-import Header from "../components/Home/Middle";
+import Header from "../components/Home/Header";
 import Main from "../components/Home/Main";
 import Footer from "../components/Home/Footer";
-import Top from "../components/Home/Top";
-import Middle from "../components/Home/Middle";
-import Bottom from "../components/Home/Bottom";
+
 function App() {
   return (
-    <div className={styles.homePage}>
+    <div className={styles.wrapper}>
       <Header />
       <Main />
       <Footer />
-      <Top />
-      <Middle />
-      <Bottom />
     </div>
   );
 }

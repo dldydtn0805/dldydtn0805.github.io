@@ -1,11 +1,1 @@
-.app {
-  height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr 8fr 1fr;
-      grid-template-rows: 1fr 8fr 1fr;
-      grid-template-areas: "header header header" "menu main top" "menu main middle" "menu main bottom" "footer footer footer";
-  background-color: black;
-  color: yellow;
-}
-/*# sourceMappingURL=App.module.css.map */
+/* No CSS *//*# sourceMappingURL=App.module.css.map */

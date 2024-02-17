@@ -1,9 +1,5 @@
-function Header() {
-  return (
-    <div>
-      헤더
-    </div>
-  );
+function Header({ className }) {
+  return <div className={className}>header</div>;
 }
 
 export default Header;

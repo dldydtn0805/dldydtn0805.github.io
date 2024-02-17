@@ -1,13 +1,8 @@
-.homePage {
+.wrapper {
   height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-rows: 1fr 8fr 1fr;
-  grid-template-areas:
-    "header header header"
-    "menu main top"
-    "menu main middle"
-    "menu main bottom"
-    "footer footer footer";
+  grid-template-rows: 1fr 7fr 1fr;
   background-color: black;
-  color: yellow;
+  color: white;
 }
