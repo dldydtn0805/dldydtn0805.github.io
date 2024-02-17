@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://dldydtn0805.github.io/blog",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
