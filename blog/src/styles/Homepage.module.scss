@@ -1,0 +1,10 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+}
