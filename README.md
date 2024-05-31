@@ -1,2 +1,2 @@
-# 킹수의 블로그 입니다
+# Kingsoo's Blog
 
